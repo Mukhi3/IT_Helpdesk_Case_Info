@@ -10,7 +10,8 @@ The dataset contains IT Help Desk ticket records, including:
 4. Ticket status
 5. Created and resolved dates
 6. Resolution time
-The same dataset was used across Excel, SQL, and Power BI to ensure consistency throughout the analysis workflow.
+
+(The same dataset was used across Excel, SQL, and Power BI to ensure consistency throughout the analysis workflow.)
 
 TOOLS USED:
 1. Microsoft Excel – Data importing, cleaning, and preparation
