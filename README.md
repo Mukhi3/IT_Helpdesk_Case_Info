@@ -1,48 +1,55 @@
-OBJECTIVE:
-The objective of this project is to analyze IT Help Desk ticket data to understand issue patterns, ticket workload, priority distribution, and resolution performance.
-The analysis focuses on identifying trends and problem areas where data-driven insights can support better operational efficiency in IT support teams.
+PROJECT OVERVIEW:
 
-DATASET:
-The dataset contains IT Help Desk ticket records, including:
-1. Ticket ID
-2. Issue category
-3. Priority level
-4. Ticket status
-5. Created and resolved dates
-6. Resolution time
+This project analyzes IT Help Desk ticket data to understand common issues, ticket volume patterns, priority distribution, and resolution performance.
+I worked with the same dataset across Excel, SQL, and Power BI to follow a complete data analysis flow — starting from raw data cleaning, moving to structured analysis, and finally presenting insights through interactive dashboards.
+The focus of this project is not just visualization, but understanding how IT support data can be used to identify workload trends, recurring problem areas, and opportunities to improve ticket handling and resolution time.
 
-(The same dataset was used across Excel, SQL, and Power BI to ensure consistency throughout the analysis workflow.)
+PROBLEM STATEMENT:
+
+- IT support teams handle a large number of tickets every day, but without proper analysis it becomes difficult to:
+- Identify the most frequent issue types
+- Understand ticket workload trends over time
+- Track priority distribution and SLA performance
+- Evaluate resolution efficiency
+- This project aims to answer these questions using historical help desk ticket data.
+
+DATA SOURCE:
+
+- The dataset contains IT Help Desk ticket records with information such as:
+- Ticket category and issue type
+- Priority level
+- Ticket creation and resolution dates
+- Ticket status
 
 TOOLS USED:
-1. Microsoft Excel – Data importing, cleaning, and preparation
-2. SQL – Structured querying and analytical exploration
-3. Power BI – Interactive dashboards and visual analysis
+
+- Excel – Data cleaning, basic exploration, and preparation
+- SQL – Structured querying and analysis
+- Power BI – Interactive dashboards and visual storytelling
+- GitHub – Version control and project documentation
 
 ANALYSIS WORKFLOW:
 
-1. Excel – Data Cleaning & Preparation
-- Imported raw IT Help Desk ticket data
-- Identified and handled missing, duplicate, and inconsistent values
-- Standardized fields such as issue categories and priorities
-- Used pivot tables and charts for initial data exploration
+- Data Import & Cleaning (Excel)
+- Checked for missing values and inconsistencies
+- Standardized categories and priority labels
+- Prepared clean data for analysis
 
-2. SQL – Data Analysis
-- Loaded the cleaned dataset into a SQL database
-- Used SQL queries to analyze:
-- Ticket count by category and priority
-- Open vs resolved ticket distribution
-- Average resolution time
-- Ticket trends over time
+DATA ANALYSIS (SQL)
 
-3. Power BI – Visualization
-- Built interactive dashboards to visualize:
-- Issue category distribution
-- Priority-wise ticket volume
-- Ticket status overview
-- Resolution time patterns
+- Analyzed ticket volume trends
+- Examined priority distribution
+- Evaluated resolution performance and patterns
+
+VISUALIZATION (Power BI)
+
+- Built dashboards to show ticket trends and KPIs
+- Highlighted high-priority workload and resolution behavior
+- Presented insights in an easy-to-understand format
 
 KEY INSIGHTS:
-- Certain issue categories generated a consistently high volume of tickets
-- High-priority tickets were fewer in number but required faster resolution
-- Ticket volume varied over time, indicating workload fluctuations
-- Some issue types consistently took longer to resolve, highlighting areas for process improvement
+
+- Certain issue categories consistently generate higher ticket volumes
+- High-priority tickets represent a smaller portion of total tickets but require more resolution effort
+- Ticket volume patterns reveal peak workload periods
+- Resolution time varies significantly by priority and issue type
